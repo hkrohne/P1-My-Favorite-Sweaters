@@ -1,1 +1,41 @@
-/* Enter your Styles below! */
+h1 {
+	color: blue;
+	font-family: park-lane; bold;
+	font-size: 80px;
+	text-align: center;
+	padding: 400px 20px 300px 20px;
+}
+
+h2 {
+	display: inline-block;
+	position: absolute
+	width: 300px;
+	color: white;
+	background-color: blue;
+	font-family: park-lane; bold;
+	font-size: 22px;
+	text-align: center;
+	padding-bottom: 30px
+}
+
+body{ 
+	background-image: url(../images/home-background.png);
+	background-size: cover;
+	background-position: 20%;
+}
+.about-text {
+	position: relative;
+}
+
+.about-text article{
+	position:absolute;
+	right: 38vw;
+	top: 40vh;
+	width: 350px;
+	min-height:200px;
+	background-color: blue;
+	display: inline-block;
+	padding: 25px;
+	color: white;
+	margin-bottom: 300px;
+}
