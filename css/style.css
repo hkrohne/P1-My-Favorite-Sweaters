@@ -1,8 +1,11 @@
 h1 {
 	color: blue;
-	font-family: park-lane; bold;
+	font-family: park-lane, serif;
+	font-weight: 700;
+	font-style: normal;
 	font-size: 80px;
 	text-align: center;
+	text-transform: uppercase; 
 	padding: 400px 20px 300px 20px;
 }
 
@@ -15,13 +18,14 @@ h2 {
 	font-family: park-lane; bold;
 	font-size: 22px;
 	text-align: center;
-	padding-bottom: 100px
+	padding: 10px 10px 10px 10px;
 }
 
 body{ 
 	background-image: url(../images/home-background.png);
 	background-size: cover;
-	background-position: 20%;
+	background-position: center top;
+	
 }
 .about-text {
 	position: relative;
