@@ -6,40 +6,110 @@ h1 {
 	font-size: 80px;
 	text-align: center;
 	text-transform: uppercase; 
-	padding: 400px 20px 300px 20px;
-}
+	padding: 375px 20px 275px 20px;
 
-h2 {
-	display: inline-block;
-	position: absolute
-	width: 300px;
+}
+h2.tagline {
 	color: white;
 	background-color: blue;
-	font-family: park-lane; bold;
+	font-family: park-lane; bold; 
 	font-size: 22px;
 	text-align: center;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
+	padding-left: 0px;
+	margin-bottom: 425px;
+
 }
 
-body{ 
+body.home{ 
 	background-image: url(../images/home-background.png);
 	background-size: cover;
 	background-position: center top;
 	
 }
+
 .about-text {
 	position: relative;
+	text-align: center;
 }
-
+h2.about-title {
+	color: white;
+	font-family: park-lane: serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
 .about-text article{
-	position:absolute;
+	text-align: justify;
+  	text-justify: inter-word;
+	vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto
 	right: 38vw;
 	top: 40vh;
 	width: 350px;
 	min-height:200px;
 	background-color: blue;
-	display: inline-block;
 	padding: 25px;
 	color: white;
-	margin-bottom: 300px;
+	margin-bottom: 600px;
 }
+.signature {
+	text-align: right;
+	padding-top: 5px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+@media screen and (max-width: 1440px) {
+  .column-one {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .column-two {
+  	flex: 50%;
+  	max-width: 50%;
+  }
+}
+
+footer {
+	clear: left;
+}
+/* END OF HOMEPAGE*/
+/* START SUBPAGE ONE*/
+.sweater-name { 
+	color: white;
+	font-family: park-lane: serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase; 
+	font-size: 30px;
+	padding: 10px 10px;
+	margin-top: 50px;
+	text-align: right;
+}
+body.subpage-one{ 
+	background-image: url(../images/beige-texture.png);
+	background-size: cover;
+	background-position: center top;
+	background-repeat-y
+}
+.sweater-info{
+	background-color: #43A792;
+	text-align: right;
+	color: white;
+	font-family: park-lane: serif;
+	font-weight: 700;
+	font-style: normal;
+	max-width: 400px;
+}
+
+
+
+
+
+
+
