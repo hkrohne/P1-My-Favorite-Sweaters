@@ -77,6 +77,12 @@ h2.about-title {
 
 footer {
 	clear: left;
+	color: white;
+	background-color:#1132FF;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
 }
 /* END OF HOMEPAGE*/
 /* START SUBPAGE ONE*/
