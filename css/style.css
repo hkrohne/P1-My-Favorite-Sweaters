@@ -1,3 +1,12 @@
+nav {
+	padding: 10px 10px 10px 10px;
+}
+li {
+	display: inline;
+}
+header { 	
+	text-align: center;
+ }
 h1 {
 	color: blue;
 	font-family: park-lane, serif;
@@ -6,7 +15,7 @@ h1 {
 	font-size: 80px;
 	text-align: center;
 	text-transform: uppercase; 
-	padding: 375px 20px 275px 20px;
+	padding: 375px 20px 225px 20px;
 
 }
 h2.tagline {
@@ -14,65 +23,54 @@ h2.tagline {
 	background-color: blue;
 	font-family: park-lane; bold; 
 	font-size: 22px;
-	text-align: center;
 	padding: 10px;
-	padding-left: 0px;
-	margin-bottom: 425px;
+	margin-bottom: 450px;
+	display: inline-block;
 
+/*Cant get background to fit text*/ 
 }
 
 body.home{ 
 	background-image: url(../images/home-background.png);
 	background-size: cover;
 	background-position: center top;
-	
 }
 
-.about-text {
-	position: relative;
+main {
 	text-align: center;
+	/*Cant get this centered on page*/ 
 }
 h2.about-title {
 	color: white;
-	font-family: park-lane: serif;
+	font-family: park-lane; bold; 
 	font-weight: 700;
-	font-style: normal;
 	font-size: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+	text-align: left;
 }
-.about-text article{
-	text-align: justify;
-  	text-justify: inter-word;
-	vertical-align: middle;
+article{
     margin-left: auto;
-    margin-right: auto
-	right: 38vw;
-	top: 40vh;
-	width: 350px;
+    margin-right: auto;
+	width: 450px;
 	min-height:200px;
 	background-color: blue;
 	padding: 25px;
 	color: white;
 	margin-bottom: 600px;
+	line-height: 1.4em;
+	font-family: park-lane, bold;
+	text-align: justify;
+}
+.about-paragraph{
+	text-align: justify;
 }
 .signature {
 	text-align: right;
-	padding-top: 5px;
+	padding-top: 10px;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-@media screen and (max-width: 1440px) {
-  .column-one {
-    flex: 50%;
-    max-width: 50%;
-  }
-  .column-two {
-  	flex: 50%;
-  	max-width: 50%;
-  }
+.photo-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 footer {
@@ -85,7 +83,7 @@ footer {
 
 }
 /* END OF HOMEPAGE*/
-/* START SUBPAGE ONE*/
+/* START SUBPAGE ONE - something happened to the layout in class, working on fixing it*/
 .s1sweater-name { 
 	color: white;
 	font-family: park-lane: serif;
@@ -93,8 +91,8 @@ footer {
 	font-weight: 700;
 	font-style: normal;
 	text-transform: uppercase; 
-	font-size: 40px;
-	padding: 10px 0px;
+	font-size: 45px;
+	padding: 10px 0px 20px 0px;
 	margin-top: 80px;
 	text-align: right;
 }
@@ -111,7 +109,7 @@ body.subpage-one{
 	font-family: park-lane: serif;
 	font-weight: 700;
 	font-style: normal;
-	max-width: 400px;
+	max-width: 350px;
 	font-size: 22px;
 	padding: 10px 20px 20px 20px;
 	/*padding is messed up for some reason*/
@@ -166,7 +164,7 @@ body.subpage-two{
 	font-weight: 700;
 	font-style: normal;
 	text-transform: uppercase; 
-	font-size: 40px;
+	font-size: 45px;
 	padding: 10px 0px;
 	margin-top: 80px;
 	text-align: right;
@@ -202,7 +200,7 @@ body.subpage-three{
 	font-weight: 700;
 	font-style: normal;
 	text-transform: uppercase; 
-	font-size: 40px;
+	font-size: 45px;
 	padding: 10px 0px;
 	margin-top: 80px;
 	text-align: right;
@@ -238,7 +236,7 @@ body.subpage-four {
 	font-weight: 700;
 	font-style: normal;
 	text-transform: uppercase; 
-	font-size: 40px;
+	font-size: 45px;
 	padding: 10px 0px;
 	margin-top: 80px;
 	text-align: right;
