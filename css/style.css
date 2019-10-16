@@ -1,26 +1,49 @@
-nav {
-	padding: 10px 10px 10px 10px;
+nav.homenav {
+	padding: 15px 10px 15px 10px;
+	background-color: #1132FF;
+	text-align: center;
+}
+.homenav a:hover {
+ 	color: #1132FF;
+ 	background-color: white;
+ 	padding: 4px;
+ }
+.homenav a.active {
+	text-decoration: underline;
+}
+nav ul{
+	text-decoration: none;
+	color: white;
 }
 li {
 	display: inline;
+	margin-right: 40px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 1px;
+	font-family: park-lane, serif;
+	font-weight: 500;
+	font-style: normal;
 }
 header { 	
 	text-align: center;
  }
 h1 {
-	color: blue;
+	color: #1132FF;
 	font-family: park-lane, serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 80px;
 	text-align: center;
 	text-transform: uppercase; 
-	padding: 375px 20px 225px 20px;
+	padding: 300px 20px 225px 20px;
 
 }
 h2.tagline {
 	color: white;
-	background-color: blue;
+	background-color: #1132FF;
 	font-family: park-lane; bold; 
 	font-size: 22px;
 	padding: 10px;
@@ -48,15 +71,15 @@ h2.about-title {
 	padding-bottom: 20px;
 	text-align: left;
 }
-article{
+article.about-box{
     margin-left: auto;
     margin-right: auto;
 	width: 450px;
-	min-height:200px;
-	background-color: blue;
+	min-height: 200px;
+	background-color: #1132FF;
 	padding: 25px;
 	color: white;
-	margin-bottom: 600px;
+	margin-bottom: 400px;
 	line-height: 1.4em;
 	font-family: park-lane, bold;
 	text-align: justify;
@@ -69,69 +92,70 @@ article{
 	padding-top: 10px;
 }
 .photo-links {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
 }
 
 footer {
 	clear: left;
 	color: white;
-	background-color:#1132FF;
+	background-color: #1132FF;
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
 
 }
 /* END OF HOMEPAGE*/
-/* START SUBPAGE ONE - something happened to the layout in class, working on fixing it*/
+/* START SUBPAGE ONE*/
 .s1sweater-name { 
-	color: white;
-	font-family: park-lane: serif;
-	/*typeface not working even though it is linked on homepage*/
+	font-family: park-lane, bold;
 	font-weight: 700;
-	font-style: normal;
 	text-transform: uppercase; 
 	font-size: 45px;
-	padding: 10px 0px 20px 0px;
-	margin-top: 80px;
-	text-align: right;
+	padding: 0px 0px 30px 0px;
+	margin-top: 30px;
 }
 body.subpage-one{ 
 	background-image: url(../images/beige-texture.png);
 	background-size: cover;
 	background-position: center top;
-	background-repeat-y
-}
+	}
 .s1sweater-info {
+	font-family: park-lane, serif;
 	background-color: #43A792;
-	text-align: right;
 	color: white;
-	font-family: park-lane: serif;
-	font-weight: 700;
-	font-style: normal;
-	max-width: 350px;
+	max-width: 450px;
 	font-size: 22px;
-	padding: 10px 20px 20px 20px;
-	/*padding is messed up for some reason*/
+	padding: 0px 30px 20px 30px;
 	position: absolute;
 	right: 50px;
 	top: 50px;
-	margin-top: 10px;
+
+	line-height: 40px;
 }
 .large-pic {
 	display: block;
-  	margin-left: auto;
- 	margin-right: auto;
  	margin-top: 300px;
-  	width: 700px;
-  	/*Cant make image larger than a certain size*/
+	max-width: 100%;
+	height: auto;
+	padding-left: 15%;
+
 }
 .interview{
 	display: block;
+ 	margin-top: 400px;
   	margin-left: auto;
- 	margin-right: auto;
- 	margin-top: 500px;
-	height: auto;
+  	margin-right: auto;
+ 	margin-bottom: 200px;
+ 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 /* END SUBPAGE ONE*/
 /* START SUBPAGE TWO*/
@@ -151,7 +175,6 @@ body.subpage-two{
 	max-width: 400px;
 	font-size: 22px;
 	padding: 10px 20px 20px 20px;
-	/*padding is messed up for some reason*/
 	position: absolute;
 	right: 50px;
 	top: 50px;
