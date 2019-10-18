@@ -17,7 +17,8 @@ nav ul{
 }
 li {
 	display: inline;
-	margin-right: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 a {
 	text-decoration: none;
@@ -112,13 +113,19 @@ footer {
 }
 /* END OF HOMEPAGE*/
 /* START SUBPAGE ONE*/
-.s1sweater-name { 
-	font-family: park-lane, bold;
-	font-weight: 700;
-	text-transform: uppercase; 
-	font-size: 45px;
-	padding: 0px 0px 30px 0px;
-	margin-top: 30px;
+nav.s1nav {
+	padding: 15px 10px 15px 10px;
+	background-color: #43A792;
+	text-align: center;
+
+}
+.s1nav a:hover {
+ 	color: #43A792;
+ 	background-color: white;
+ 	padding: 4px;
+ }
+.s1nav a.active {
+	text-decoration: underline;
 }
 body.subpage-one{ 
 	background-image: url(../images/beige-texture.png);
@@ -131,18 +138,26 @@ body.subpage-one{
 	color: white;
 	max-width: 450px;
 	font-size: 22px;
-	padding: 0px 30px 20px 30px;
+	padding: 0px 42px 20px 30px;
 	position: absolute;
 	right: 50px;
 	top: 50px;
+	margin-top: 50px;
 
 	line-height: 40px;
+}
+.s1sweater-name { 
+	font-family: park-lane, bold;
+	font-weight: 700;
+	text-transform: uppercase; 
+	font-size: 45px;
+	padding: 0px 0px 30px 0px;
+	margin-top: 30px;
 }
 .large-pic {
 	display: block;
  	margin-top: 300px;
 	max-width: 100%;
-	height: auto;
 	padding-left: 15%;
 
 }
@@ -159,6 +174,19 @@ body.subpage-one{
 }
 /* END SUBPAGE ONE*/
 /* START SUBPAGE TWO*/
+nav.s2nav {
+	padding: 15px 10px 15px 10px;
+	background-color: #9043E5;
+	text-align: center;
+}
+.s2nav a:hover {
+ 	color: #9043E5;
+ 	background-color: white;
+ 	padding: 4px;
+ }
+.s2nav a.active {
+	text-decoration: underline;
+}
 body.subpage-two{ 
 	background-image: url(../images/blue-texture.png);
 	background-size: cover;
@@ -167,33 +195,41 @@ body.subpage-two{
 }
 .s2sweater-info {
 	background-color: #9043E5;
-	text-align: right;
+	font-family: park-lane, serif;
 	color: white;
-	font-family: park-lane: serif;
-	font-weight: 700;
-	font-style: normal;
-	max-width: 400px;
+	max-width: 620px;
 	font-size: 22px;
-	padding: 10px 20px 20px 20px;
+	padding: 0px 40px 20px 30px;
 	position: absolute;
 	right: 50px;
 	top: 50px;
-	margin-top: 10px;
+	margin-top: 50px;
+
+	line-height: 40px;
 }
 .s2sweater-name { 
-	color: white;
-	font-family: park-lane: serif;
-	/*typeface not working even though it is linked on homepage*/
+	font-family: park-lane, bold;
 	font-weight: 700;
-	font-style: normal;
 	text-transform: uppercase; 
 	font-size: 45px;
-	padding: 10px 0px;
-	margin-top: 80px;
-	text-align: right;
+	padding: 0px 0px 30px 0px;
+	margin-top: 30px;
 }
 /* END SUBPAGE TWO*/
 /* START SUBPAGE THREE*/
+nav.s3nav {
+	padding: 15px 10px 15px 10px;
+	background-color: #1132FF;
+	text-align: center;
+}
+.s3nav a:hover {
+ 	color: #1132FF;
+ 	background-color: white;
+ 	padding: 4px;
+ }
+.s3nav a.active {
+	text-decoration: underline;
+}
 body.subpage-three{ 
 	background-image: url(../images/black-texture.png);
 	background-size: cover;
@@ -202,34 +238,42 @@ body.subpage-three{
 }
 .s3sweater-info {
 	background-color: #1132FF;
-	text-align: right;
+	font-family: park-lane, serif;
 	color: white;
-	font-family: park-lane: serif;
-	font-weight: 700;
-	font-style: normal;
-	max-width: 400px;
+	max-width: 650px;
 	font-size: 22px;
-	padding: 10px 20px 20px 20px;
-	/*padding is messed up for some reason*/
+	padding: 0px 40px 20px 30px;
 	position: absolute;
 	right: 50px;
 	top: 50px;
-	margin-top: 10px;
+	margin-top: 50px;
+
+	line-height: 40px;
 }
 .s3sweater-name { 
-	color: white;
-	font-family: park-lane: serif;
-	/*typeface not working even though it is linked on homepage*/
+	font-family: park-lane, bold;
 	font-weight: 700;
-	font-style: normal;
 	text-transform: uppercase; 
 	font-size: 45px;
-	padding: 10px 0px;
-	margin-top: 80px;
-	text-align: right;
+	padding: 0px 0px 30px 0px;
+	margin-top: 30px;
 }
 /* END SUBPAGE THREE*/
 /* START SUBPAGE FOUR*/
+nav.s4nav {
+	padding: 15px 10px 15px 10px;
+	background-color: #FE9F53;
+	text-align: center;
+}
+.s4nav a:hover {
+ 	color: #FE9F53;
+ 	background-color: white;
+ 	padding: 4px;
+ }
+.s4nav a.active {
+	text-decoration: underline;
+}
+
 body.subpage-four {
 	background-image: url(../images/woven-texture.png);
 	background-size: cover;
@@ -238,31 +282,25 @@ body.subpage-four {
 }
 .s4sweater-info {
 	background-color: #FE9F53;
-	text-align: right;
+	font-family: park-lane, serif;
 	color: white;
-	font-family: park-lane: serif;
-	font-weight: 700;
-	font-style: normal;
-	max-width: 400px;
+	max-width: 550px;
 	font-size: 22px;
-	padding: 10px 20px 20px 20px;
-	/*padding is messed up for some reason*/
+	padding: 0px 40px 20px 30px;
 	position: absolute;
 	right: 50px;
 	top: 50px;
-	margin-top: 10px;
+	margin-top: 50px;
+
+	line-height: 40px;
 }
 .s4sweater-name { 
-	color: white;
-	font-family: park-lane: serif;
-	/*typeface not working even though it is linked on homepage*/
+	font-family: park-lane, bold;
 	font-weight: 700;
-	font-style: normal;
 	text-transform: uppercase; 
 	font-size: 45px;
-	padding: 10px 0px;
-	margin-top: 80px;
-	text-align: right;
+	padding: 0px 0px 30px 0px;
+	margin-top: 30px;
 }
 
 
