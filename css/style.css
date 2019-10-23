@@ -45,7 +45,7 @@ h1 {
 h2.tagline {
 	color: white;
 	background-color: #1132FF;
-	font-family: park-lane; bold; 
+	font-family: park-lane, bold; 
 	font-size: 22px;
 	padding: 10px;
 	margin-bottom: 200px;
@@ -55,7 +55,7 @@ h2.tagline {
 }
 h2.arrow-text{
 	color: #1132FF;
-	font-family: park-lane; serif;
+	font-family: park-lane, serif;
 	font-size: 18px;
 	margin-bottom: 3px;
 }
@@ -75,7 +75,7 @@ main {
 }
 h2.about-title {
 	color: white;
-	font-family: park-lane; bold; 
+	font-family: park-lane, bold; 
 	font-weight: 700;
 	font-size: 30px;
 	padding-bottom: 20px;
@@ -117,7 +117,7 @@ footer {
 	clear: left;
 	color: white;
 	background-color: #1132FF;
-	font-family: park-lane; bold;
+	font-family: park-lane, bold;
 	text-transform: lowercase;
 	text-align: center;
 	padding-top: 15px;
