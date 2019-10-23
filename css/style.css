@@ -39,7 +39,7 @@ h1 {
 	font-size: 80px;
 	text-align: center;
 	text-transform: uppercase; 
-	padding: 300px 20px 225px 20px;
+	padding: 300px 20px 75px 20px;
 
 }
 h2.tagline {
@@ -48,10 +48,19 @@ h2.tagline {
 	font-family: park-lane; bold; 
 	font-size: 22px;
 	padding: 10px;
-	margin-bottom: 450px;
+	margin-bottom: 200px;
 	display: inline-block;
 
 /*Cant get background to fit text*/ 
+}
+h2.arrow-text{
+	color: #1132FF;
+	font-family: park-lane; serif;
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+.about-arrow{
+	margin-bottom: 400px;
 }
 
 body.home{ 
@@ -80,7 +89,7 @@ article.about-box{
 	background-color: #1132FF;
 	padding: 25px;
 	color: white;
-	margin-bottom: 400px;
+	margin-bottom: 175px;
 	line-height: 1.4em;
 	font-family: park-lane, bold;
 	text-align: justify;
@@ -92,6 +101,9 @@ article.about-box{
 	text-align: right;
 	padding-top: 10px;
 }
+.second-arrow{ 
+	margin-bottom: 100px;
+}
 .photo-links {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -101,11 +113,12 @@ article.about-box{
 	text-align: center;
 	min-height: 100vh;
 }
-
 footer {
 	clear: left;
 	color: white;
 	background-color: #1132FF;
+	font-family: park-lane; bold;
+	text-transform: lowercase;
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -301,6 +314,9 @@ body.subpage-four {
 	font-size: 45px;
 	padding: 0px 0px 30px 0px;
 	margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+
 }
 
 
